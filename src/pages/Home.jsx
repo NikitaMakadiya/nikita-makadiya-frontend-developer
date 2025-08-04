@@ -36,9 +36,9 @@ const Home = () => {
         </h1>
 
         {theme === "colorful" ? (
-          <ProductListView products={products} />
-        ) : (
           <ProductGridView products={products} />
+        ) : (
+          <ProductListView products={products} />
         )}
       </main>
     </>
